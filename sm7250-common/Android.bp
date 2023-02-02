@@ -57,6 +57,17 @@ android_app_import {
 }
 
 android_app_import {
+	name: "ImsRcsService",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/app/ImsRcsService/ImsRcsService.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	system_ext_specific: true,
+}
+
+android_app_import {
 	name: "IWlanService",
 	owner: "xiaomi",
 	apk: "proprietary/vendor/app/IWlanService/IWlanService.apk",
@@ -183,6 +194,14 @@ dex_import {
 	owner: "xiaomi",
 	jars: ["proprietary/framework/WfdCommon.jar"],
 }
+
+dex_import {
+	name: "vendor.qti.ims.factory-V2.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/system_ext/framework/vendor.qti.ims.factory-V2.0-java.jar"],
+	system_ext_specific: true,
+}
+
 
 prebuilt_etc_xml {
 	name: "android.hardware.gnss@2.1-service-qti",
