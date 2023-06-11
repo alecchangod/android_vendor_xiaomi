@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/sm7250-common
 
 PRODUCT_COPY_FILES += \
+    vendor/xiaomi/sm7250-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/xiaomi/sm7250-common/proprietary/lib/libaudio-resampler.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudio-resampler.so \
     vendor/xiaomi/sm7250-common/proprietary/lib/libhidlbase.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhidlbase.so \
     vendor/xiaomi/sm7250-common/proprietary/lib/libhidltransport.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libhidltransport.so \
@@ -1074,6 +1075,8 @@ PRODUCT_PACKAGES += \
     SoterService \
     TimeService \
     PowerOffAlarm \
+    HotwordEnrollmentOKGoogleHEXAGON \
+    HotwordEnrollmentXGoogleHEXAGON \
     QtiTelephonyService \
     imssettings \
     WfdService \
@@ -1081,6 +1084,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     tcmclient \
     WfdCommon \
+    com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
