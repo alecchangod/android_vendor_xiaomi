@@ -885,6 +885,4 @@ PRODUCT_PACKAGES += \
     manifest_vendor.xiaomi.hardware.mlipay \
     vendor.qti.gnss@4.0-service \
     DaxUI \
-    daxService \
-    wfdservice
-
+    daxService
