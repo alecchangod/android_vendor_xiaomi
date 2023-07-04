@@ -168,6 +168,11 @@ dex_import {
 	system_ext_specific: true,
 }
 
+dex_import {
+	name: "vendor.xiaomi.hardware.campostproc-V1.0-java",
+	owner: "xiaomi",
+	jars: ["proprietary/framework/vendor.xiaomi.hardware.campostproc-V1.0-java.jar"],
+}
 prebuilt_etc_xml {
 	name: "android.hardware.gnss@2.1-service-qti",
 	owner: "xiaomi",
