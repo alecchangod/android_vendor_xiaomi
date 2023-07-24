@@ -6,9 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/sm7250-common
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/sm7250-common/proprietary/vendor/lib/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so \
-    vendor/xiaomi/sm7250-common/proprietary/vendor/lib/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.xiaomi.hardware.campostproc@1.0.so \
-    vendor/xiaomi/sm7250-common/proprietary/vendor/lib/vendor.display.config@1.9.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.9.so \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.campostproc@1.0-service-impl.so \
     vendor/xiaomi/sm7250-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.campostproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.campostproc@1.0.so \
     vendor/xiaomi/sm7250-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
