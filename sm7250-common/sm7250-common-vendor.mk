@@ -1080,7 +1080,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON \
     HotwordEnrollmentXGoogleHEXAGON \
     QtiTelephonyService \
-    imssettings \
     WfdService \
     ims \
     qcrilmsgtunnel \
