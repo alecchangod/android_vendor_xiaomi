@@ -1,7 +1,5 @@
 pdafHWEnable=FALSE
 multiCameraEnable=TRUE
-logInfoMask=0x10098
-overrideLogLevels=0x1F
 enableSensorHWSync=1
 multiCameraFrameSync=1
 enableSensorFpsMatch=TRUE
@@ -31,8 +29,6 @@ isTeleOisSupported=TRUE
 forceHWMFFixedNumOfFrames=5
 AiSupportedMoonAutoFocus=TRUE
 enableGPURotation=TRUE
-
-
 overrideLogLevels=0
 logInfoMask=0x0
 logConfigMask=0x0
